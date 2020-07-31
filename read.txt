@@ -1,0 +1,38 @@
+//store data
+
+ txt file
+ doc file
+ database : No-sql(mongodb) or sql
+
+^5.9.26
+
+//REST API
+
+programers (schema) :
+
+name
+technology
+subscribe: true , false (boolean)
+
+// where will we send req
+ WEB BROWSER
+ client -> server
+
+ // default browser has two methods get and post
+ REST API => HTTP -> GET , POST , {PATCH /PUT (update)} , Delete
+
+
+Express
+
+mongodb
+
+  GET : http://localhost:9000/programmer   {fetch all programmers}
+  GET : http://localhost:9000/programmer/<id>  {it gives only one programmer}
+  POST :  http://localhost:9000/programmer  {send data from clinet -> server}
+  PATCH :  http://localhost:9000/programmer/<id>  {for updating specific programers data}
+  DELETE :  http://localhost:9000/programmer/<id>  {for Delete specific programers data}
+
+
+// at init time
+
+package.json is  meta-data of our project
